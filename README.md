@@ -28,12 +28,24 @@ Built as part of **#TWS Three-Tier App Challenge** to learn cloud-native deploym
 
 ## 🏗 Architecture
 
-![Architecture](Three-Tier.gif)
+## 🏗️ Architecture
 
-> **Note:** The diagram shows CI/CD tools (Jenkins/ArgoCD) for a complete platform view.  
-> In **this implementation**, I deployed via CLI (`kubectl`), without Jenkins.
+Below is the architecture of the deployed Three-Tier Web Application on AWS.
 
-High-level flow:
+![Architecture Diagram](Three-tier.png)
+
+---
+
+## 🖼 Screenshots
+
+**Amazon ECR (Private Repositories)**  
+<br>
+<img src="Screenshot%20from%202025-10-11%2023-17-42.png" alt="ECR Repositories" width="820"/>
+
+**Deployed To-Do App (Frontend on AWS EKS)**  
+<br>
+<img src="Screenshot%20from%202025-10-15%2013-32-55.png" alt="Deployed App UI" width="820"/>
+
 
 ---
 
